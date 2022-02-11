@@ -15,7 +15,7 @@ pipeline {
                    [
                        artifactId: 'RegisterPage', 
                        classifier: '', 
-                       file: 'RegisterPage.jar', 
+                       file: '/var/lib/jenkins/jobs/pipeline/config.xml', 
                        type: 'jar'
                    ]
                ], 
